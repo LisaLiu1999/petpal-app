@@ -29,13 +29,29 @@ petpal-app/
 
 ----
 
-### Clone & Install
+### How to Run Locally
+Install Dependencies
+# Clone the repository
+git clone https://github.com/LisaLiu1999/petpal-app.git
+cd pet-pal-app
 
-```bash
-git clone  https://github.com/LisaLiu1999/petpal-app.git
-cd petpal-app/frontend
+# Install frontend dependencies
+cd frontend
 npm install
 
+# Install backend dependencies (Strapi)
+cd ../backend
+npm install
+
+-----
+**Run Strapi CMS Locally**
+cd backend
+npm run develop
+
+**Run React Frontend Locally**
+cd frontend
+npm run dev
+# Frontend: http://localhost:5173
 
 
 
