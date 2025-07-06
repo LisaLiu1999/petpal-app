@@ -24,8 +24,8 @@ Content is managed dynamically via Strapi.
 ## Repo Structure
 
 petpal-app/
-- **frontend**   # React + Vite
-- **backend**    # Strapi CMS
+- **frontend/**   # React + Vite
+- **backend/**    # Strapi CMS
 
 ----
 
