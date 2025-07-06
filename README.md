@@ -31,6 +31,7 @@ petpal-app/
 
 ### How to Run Locally
 Install Dependencies
+
 # Clone the repository
 git clone https://github.com/LisaLiu1999/petpal-app.git
 cd pet-pal-app
