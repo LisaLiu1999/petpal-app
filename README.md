@@ -46,13 +46,14 @@ npm install
 
 ---
 
-**Run Strapi CMS Locally**
+# Run Strapi CMS Locally
 cd backend
 npm run develop
 
-**Run React Frontend Locally**
+# Run React Frontend Locally
 cd frontend
 npm run dev
+
 # Frontend: http://localhost:5173
 
 
