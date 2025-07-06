@@ -21,6 +21,13 @@ Content is managed dynamically via Strapi.
 
 ---
 
+## Repo Structure
+
+petpal-app/
+frontend/   # React + Vite
+backend/    # Strapi CMS
+
+----
 
 ### Clone & Install
 ```bash
@@ -29,10 +36,6 @@ cd petpal-app/frontend
 npm install
 
 
-## Repo Structure
 
-petpal-app/
-frontend/   # React + Vite
-backend/    # Strapi CMS
 
 
