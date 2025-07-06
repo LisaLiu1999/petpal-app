@@ -1,61 +1,122 @@
-# Pet Pal Services
+# Pet Pal Services 🐾
 
-A modern pet service booking app built with React + Vite, integrated with **Strapi Headless CMS** for fully dynamic content.
+A modern pet service booking application built with React and Vite, integrated with Strapi Headless CMS for dynamic content management.
 
+## 📋 Project Overview
 
-## Project Overview
+Pet Pal Services is a comprehensive platform that allows pet owners to:
+- Browse various pet services (grooming, vaccinations, check-ups)
+- View detailed service information including pricing and duration
+- Contact service providers directly
+- Manage bookings and appointments
 
-Pet Pal Services lets pet owners:
-- Browse services (grooming, vaccinations, check-ups)
-- View details like price & duration
-- Contact service providers
+All content is dynamically managed through Strapi CMS, providing flexibility and easy content updates.
 
-Content is managed dynamically via Strapi.
+## 🛠️ Tech Stack
 
-----
+### Frontend
+- **React** - UI library
+- **Vite** - Build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router** - Client-side routing
 
-## Tech Stack
+### Backend
+- **Strapi** - Headless CMS
+- **REST API** - API architecture
 
-- **Frontend**: React, Vite, Tailwind CSS, React Router
-- **Backend (CMS)**: Strapi, REST API
+## 📁 Repository Structure
 
----
-
-## Repo Structure
-
+```
 petpal-app/
-- **frontend/**   # React + Vite
-- **backend/**    # Strapi CMS
+├── frontend/          # React + Vite application
+│   ├── src/
+│   ├── public/
+│   └── package.json
+├── backend/           # Strapi CMS
+│   ├── src/
+│   ├── config/
+│   └── package.json
+└── README.md
+```
 
----
+## 🚀 Getting Started
 
-### How to Run Locally
-Install Dependencies
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-# Clone the repository
-git clone https://github.com/LisaLiu1999/petpal-app.git
-cd pet-pal-app
+### Installation
 
-# Install frontend dependencies
-cd frontend
-npm install
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/LisaLiu1999/petpal-app.git
+   cd petpal-app
+   ```
 
-# Install backend dependencies (Strapi)
-cd ../backend
-npm install
+2. **Install backend dependencies**
+   ```bash
+   cd backend
+   npm install
+   ```
 
----
+3. **Install frontend dependencies**
+   ```bash
+   cd ../frontend
+   npm install
+   ```
 
-# Run Strapi CMS Locally
-cd backend
-npm run develop
+### Running the Application
 
-# Run React Frontend Locally
-cd frontend
-npm run dev
+1. **Start the Strapi CMS backend**
+   ```bash
+   cd backend
+   npm run develop
+   ```
+   The Strapi admin panel will be available at `http://localhost:1337/admin`
 
-# Frontend: http://localhost:5173
+2. **Start the React frontend** (in a new terminal)
+   ```bash
+   cd frontend
+   npm run dev
+   ```
+   The application will be available at `http://localhost:5173`
 
+## 🔧 Development
 
+### Backend (Strapi)
+- Admin panel: `http://localhost:1337/admin`
+- API endpoint: `http://localhost:1337/api`
 
+### Frontend (React)
+- Development server: `http://localhost:5173`
+- Built with Vite for fast development and hot module replacement
 
+## 📚 API Documentation
+
+The Strapi backend provides RESTful API endpoints for:
+- Pet services management
+- User authentication
+- Booking management
+- Service provider profiles
+
+API documentation is available through the Strapi admin panel.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🐛 Issues
+
+If you encounter any issues, please report them on the [GitHub Issues](https://github.com/LisaLiu1999/petpal-app/issues) page.
+
+## 📧 Contact
+
+For questions or support, please contact the development team or open an issue on GitHub.
