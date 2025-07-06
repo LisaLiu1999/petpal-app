@@ -101,13 +101,6 @@ The Strapi backend provides RESTful API endpoints for:
 
 API documentation is available through the Strapi admin panel.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
@@ -117,6 +110,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 If you encounter any issues, please report them on the [GitHub Issues](https://github.com/LisaLiu1999/petpal-app/issues) page.
 
-## 📧 Contact
-
-For questions or support, please contact the development team or open an issue on GitHub.
