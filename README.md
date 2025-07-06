@@ -27,3 +27,12 @@ Content is managed dynamically via Strapi.
 git clone https://github.com/lisaliu1999/petpal-app.git
 cd petpal-app/frontend
 npm install
+
+
+## Repo Structure
+
+petpal-app/
+frontend/   # React + Vite
+backend/    # Strapi CMS
+
+
