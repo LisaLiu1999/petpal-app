@@ -30,8 +30,9 @@ petpal-app/
 ----
 
 ### Clone & Install
+
 ```bash
-git clone https://github.com/lisaliu1999/petpal-app.git
+git clone  https://github.com/LisaLiu1999/petpal-app.git
 cd petpal-app/frontend
 npm install
 
