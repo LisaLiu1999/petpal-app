@@ -12,7 +12,7 @@ Pet Pal Services lets pet owners:
 
 Content is managed dynamically via Strapi.
 
-
+----
 
 ## Tech Stack
 
@@ -27,7 +27,7 @@ petpal-app/
 - **frontend/**   # React + Vite
 - **backend/**    # Strapi CMS
 
-----
+---
 
 ### How to Run Locally
 Install Dependencies
@@ -44,7 +44,8 @@ npm install
 cd ../backend
 npm install
 
------
+---
+
 **Run Strapi CMS Locally**
 cd backend
 npm run develop
